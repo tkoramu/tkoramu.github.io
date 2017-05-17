@@ -1,0 +1,23 @@
+title: sample
+# email: 
+description: >
+  sample
+baseurl: ""
+url: "http://edward-jobs.com"
+excerpt_separator: "<!--more-->"
+permalink: none
+
+twitter_username: 
+github_username:  
+
+author:
+  name: tkoramu
+  # twitter: 
+
+paginate: 4
+paginate_path: "page:num"
+
+# Build settings
+gems:
+  - jekyll-paginate
+  - jekyll-feed
