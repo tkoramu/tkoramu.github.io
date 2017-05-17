@@ -1,14 +1,14 @@
 <div class="share">
 	<ul>
-		<li><a href="https://twitter.com/intent/tweet?text=[テキスト]&amp;url=[URL]&amp;via=[アカウント]" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbar=yes'); return false;" class="share-tw">
+		<li><a href="https://twitter.com/intent/tweet?text=[テキスト]&amp;url={{ page.url }}&amp;via={{ site.author.name }}" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbar=yes'); return false;" class="share-tw">
 			<i class="fa fa-twitter"></i>
 			<span>Twitter</span>でシェア
 		</a></li>
-		<li><a href="http://www.facebook.com/shar.php?u=[URL]" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbar=yes'); return false;" class="share-fb">
+		<li><a href="http://www.facebook.com/shar.php?u={{ page.url }}" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbar=yes'); return false;" class="share-fb">
 			<i class="fa fa-facebook"></i>
 			<span>Facebook</span>でシェア
 		</a></li>
-		<li><a href="https://plus.google.com/share?url=[URL]" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbar=yes'); return false;" class="share-gp">
+		<li><a href="https://plus.google.com/share?url={{ page.url }}" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbar=yes'); return false;" class="share-gp">
 			<i class="fa fa-google-plus"></i>
 			<span>Google+</span>でシェア
 		</a></li>
