@@ -2,35 +2,19 @@
 layout: default
 ---
 
-<div class="boxA">
-    <article class="gaiyou pickup">
-      <a href="#">
-
-        <div class="badge">
-          <i class="fa fa-thumbs-o-up"></i>PICK UP
-        </div>
-
-        <img src="{{ '/assets/img/' | relative_url }}pc.jpg" alt="pc.jpg">
-        <h1>初めてのJekyll！</h1>
-        <p>HTMLとCSSに関する参考書籍で学んだ形をそのままJekyllに反映してみました。</p>
-        <p class="more">
-          続きを読む
-          <i class="fa fa-chevron-right"></i>
-        </p>
-      </a>
-    </article>
-
-    <div class="boxA-1">
+<div class="article item__article_main">
+    
+    <div class="container-inner">
       {% for post in paginator.posts %}
       <article class="gaiyou">
           <a href="{{ post.url | relative_url }}">
             <img src="{{ '/assets/img/' | relative_url }}{{ post.image }}" alt="{{ post.image }}">
             <h2>{{ post.title }}</h2>
             {{ post.excerpt }}
-            <p class="more">
+            <span class="more">
               続きを読む
               <i class="fa fa-chevron-right"></i>
-            </p>
+            </span>
           </a>
       </article>
       {% endfor %}

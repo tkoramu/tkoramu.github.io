@@ -2,29 +2,30 @@
 layout: default
 ---
 
-<div class="boxA">
-  <div class="box3">
-    <article class="kiji">
-      {% include tag.html %}
+<div class="item__other"></div>
 
-      <h1>{{ page.title }}</h1>
+<div class="article-main item__article_main">
+  <article class="article">
+    {% include tag.html %}
 
-      <div class="kijiinfo">
-        <time datetime="{{ page.date }}">
-          <i class="fa fa-clock-o"></i>{{ page.date | date: "%Y-%m-%d" }}
-        </time>
-      </div>
+    <h1 class="article-title">{{ page.title }}</h1>
 
-      <p><img src="{{ '/assets/img/' | relative_url }}{{ page.image }}" alt="{{ page.image }}"></p>
+    <div class="article-info">
+      <time datetime="{{ page.date }}">
+        <i class="fa fa-clock-o"></i>{{ page.date | date: "%Y-%m-%d" }}
+      </time>
+    </div>
 
-      {{ content }}
+    <p><img src="{{ '/assets/img/' | relative_url }}{{ page.image }}" alt="{{ page.image }}"></p>
 
-      {% include share.html %}
+    {{ content }}
 
-    </article>
+    {% include share.html %}
 
-    {% include relation.html %}
+  </article>
 
-  </div>
-  {% include side.html %}
+  {% include relation.html %}
+
 </div>
+  
+{% include side.html %}
