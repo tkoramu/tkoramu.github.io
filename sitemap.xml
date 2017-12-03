@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://edward-jobs.com/favorite/test2/</loc>
+    <lastmod>2017-11-19T20:11:36+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/notice/test/</loc>
+    <lastmod>2017-11-19T20:11:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/favorite/favorite/</loc>
+    <lastmod>2017-11-19T19:24:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/task/test/</loc>
+    <lastmod>2017-11-19T19:24:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/notice/notics/</loc>
+    <lastmod>2017-11-19T19:24:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/posts/hello/</loc>
+    <lastmod>2017-10-08T21:03:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/</loc>
+    <lastmod>2017-11-19T20:11:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/favorite/</loc>
+    <lastmod>2017-11-19T20:11:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/notice/</loc>
+    <lastmod>2017-11-19T20:11:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/posts/</loc>
+    <lastmod>2017-10-08T21:03:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/task/</loc>
+    <lastmod>2017-11-19T19:24:44+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

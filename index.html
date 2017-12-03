@@ -1,39 +1,194 @@
----
-layout: default
----
 
-<div class="article item__article_main">
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="generator" content="Hugo 0.29" />
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Creating imagination by Edward Jobs :: Creating imagination by Edward Jobs</title>
+
+	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     
-    <div class="container-inner">
-      {% for post in paginator.posts %}
-      <article class="gaiyou">
-          <a href="{{ post.url | relative_url }}">
-            <img src="{{ '/assets/img/' | relative_url }}{{ post.image }}" alt="{{ post.image }}">
-            <h2>{{ post.title }}</h2>
-            {{ post.excerpt }}
-            <span class="more">
-              続きを読む
-              <i class="fa fa-chevron-right"></i>
-            </span>
-          </a>
-      </article>
-      {% endfor %}
+	<script src="/js/jquery.min_v3.2.1.js?1512298890"></script>
+	
+	<link href="/css/font-awesome.min.css?1512298890" rel="stylesheet">
+    <link href="/css/theme.css?1512298890" rel="stylesheet">
 
-      <!-- ページネーション -->
-      {% if paginator.total_pages > 1 %}
-          <div class="pagination">
+    
 
-            {% for page in (1..paginator.total_pages) %}
-              {% if page == paginator.page %}
-                <span class="active">{{ page }}</span>
-              {% elsif page == 1 %}
-                <a class="pagination__item" href="{{ site.paginate_path | relative_url | replace: 'page:num', '' }}">{{ page }}</a>
-              {% else %}
-                <a class="pagination__item" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-              {% endif %}
-            {% endfor %}
+  </head>
 
-          </div><!--pagination-->
-      {% endif %}
-    </div>
+
+<body>
+  <div class="container">
+    <div class="header">
+	<div class="menu-frame">
+		<div class="menu clearfix">
+			<ul>
+				<li><a class="homeMenu" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+				<li><a class="noticeMenu" href="/notice/" target="home-frame"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+				<li><a class="favoriteMenu" href="/favorite/" target="home-frame"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				<li><a class="taskMenu" href="/task/" target="home-frame"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	
 </div>
+
+
+    <div class="main">
+		<div class="main-content">
+
+		</div>
+		<div class="task iframe-content">
+			<iframe src="/task/" frameborder="0" width="100%"></iframe>
+		</div>
+    </div>
+
+    <div class="home">
+		<div class="home-frame iframe-content">
+			<iframe src="/task/" frameborder="0" width="100%" name="home-frame"></iframe>
+		</div>
+		<div class="home-main">
+			<h3 class="article-title">
+				<i class="fa fa-home" aria-hidden="true"></i>ホーム
+			</h3>
+			<article>
+
+			  
+			    <section class="section">
+	<div class="icon-image">
+		
+		<img src="/images/favicon.png" alt="user-icon-image">
+	</div>
+	<div class="section-main">
+		
+		<p class="username">
+			edword-jobs
+			<span class="section-date">Nov 19, 2017</span>
+		</p>
+		<a href="http://edward-jobs.com/favorite/test2/" target="_top">Test2</a>
+		<p>test2</p>
+	</div>
+</section>
+
+			  
+			    <section class="section">
+	<div class="icon-image">
+		
+		<img src="/images/favicon.png" alt="user-icon-image">
+	</div>
+	<div class="section-main">
+		
+		<p class="username">
+			edword-jobs
+			<span class="section-date">Nov 19, 2017</span>
+		</p>
+		<a href="http://edward-jobs.com/notice/test/" target="_top">Test</a>
+		<p>testtest,notice</p>
+	</div>
+</section>
+
+			  
+			    <section class="section">
+	<div class="icon-image">
+		
+		<img src="/images/favicon.png" alt="user-icon-image">
+	</div>
+	<div class="section-main">
+		
+		<p class="username">
+			edword-jobs
+			<span class="section-date">Nov 19, 2017</span>
+		</p>
+		<a href="http://edward-jobs.com/favorite/favorite/" target="_top">Favorite</a>
+		<p> test favorite </p>
+	</div>
+</section>
+
+			  
+			    <section class="section">
+	<div class="icon-image">
+		
+		<img src="/images/favicon.png" alt="user-icon-image">
+	</div>
+	<div class="section-main">
+		
+		<p class="username">
+			edword-jobs
+			<span class="section-date">Nov 19, 2017</span>
+		</p>
+		<a href="http://edward-jobs.com/task/test/" target="_top">Task test</a>
+		<p> test task </p>
+	</div>
+</section>
+
+			  
+			    <section class="section">
+	<div class="icon-image">
+		
+		<img src="/images/favicon.png" alt="user-icon-image">
+	</div>
+	<div class="section-main">
+		
+		<p class="username">
+			edword-jobs
+			<span class="section-date">Nov 19, 2017</span>
+		</p>
+		<a href="http://edward-jobs.com/notice/notics/" target="_top">Notics</a>
+		<p> test notice </p>
+	</div>
+</section>
+
+			  
+			    <section class="section">
+	<div class="icon-image">
+		
+		<img src="/images/favicon.png" alt="user-icon-image">
+	</div>
+	<div class="section-main">
+		
+		<p class="username">
+			edword-jobs
+			<span class="section-date">Oct 08, 2017</span>
+		</p>
+		<a href="http://edward-jobs.com/posts/hello/" target="_top">Hello</a>
+		<p>start hugo!</p>
+	</div>
+</section>
+
+			  
+
+			</article>
+
+			
+
+
+		</div>
+    </div>
+
+    <div class="notice iframe-content">
+        <iframe src="/notice/" frameborder="0" width="100%"></iframe>
+    </div>
+
+    <div class="favorite iframe-content">
+        <iframe src="/favorite/" frameborder="0" width="100%"></iframe>
+    </div>
+
+    <div class="footer">
+	<small>&copy; 2017 Creating imagination by Edward Jobs</small>
+</div>
+
+
+<script src="/js/no-right-click.js?1512298890"></script>
+<script src="/js/menu.js?1512298890"></script>
+
+
+  </div>
+</body>
+</html>

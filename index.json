@@ -1,0 +1,93 @@
+
+[
+{
+	"uri": "http://edward-jobs.com/favorite/test2/",
+	"title": "Test2",
+	"tags": [],
+	"description": "",
+	"content": "test2\n"
+},
+{
+	"uri": "http://edward-jobs.com/notice/test/",
+	"title": "Test",
+	"tags": [],
+	"description": "",
+	"content": "testtest,notice\n"
+},
+{
+	"uri": "http://edward-jobs.com/favorite/favorite/",
+	"title": "Favorite",
+	"tags": [],
+	"description": "",
+	"content": " test favorite "
+},
+{
+	"uri": "http://edward-jobs.com/task/test/",
+	"title": "Task test",
+	"tags": [],
+	"description": "",
+	"content": " test task "
+},
+{
+	"uri": "http://edward-jobs.com/notice/notics/",
+	"title": "Notics",
+	"tags": [],
+	"description": "",
+	"content": " test notice "
+},
+{
+	"uri": "http://edward-jobs.com/posts/hello/",
+	"title": "Hello",
+	"tags": [],
+	"description": "",
+	"content": "start hugo!\n"
+},
+{
+	"uri": "http://edward-jobs.com/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://edward-jobs.com/",
+	"title": "Creating imagination by Edward Jobs",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://edward-jobs.com/favorite/",
+	"title": "Favorites",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://edward-jobs.com/notice/",
+	"title": "Notices",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://edward-jobs.com/posts/",
+	"title": "Posts",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://edward-jobs.com/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://edward-jobs.com/task/",
+	"title": "Tasks",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
