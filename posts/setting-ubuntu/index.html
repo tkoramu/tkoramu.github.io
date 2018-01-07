@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="generator" content="Hugo 0.32.2" />
+    <meta name="description" content="">
+<meta name="author" content="tkoramu">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Setting Ubuntu :: Creating imagination by Edward Jobs</title>
+
+	
+	
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-60338199-6', 'auto');
+ga('send', 'pageview');
+</script>
+
+	
+
+	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    
+	<script src="/js/jquery.min_v3.2.1.js?1515328165"></script>
+	
+	<link href="/css/font-awesome.min.css?1515328165" rel="stylesheet">
+    <link href="/css/theme.css?1515328165" rel="stylesheet">
+
+    
+
+  </head>
+
+
+<body class="glid-background">
+	<div class="icon-image">
+		
+		<img src="/images/myImage.jpg" alt="user-icon-image">
+	</div>
+	<div class="section-main single-pages">
+		
+		<p class="username">
+			tkoramu
+			<span class="section-date">Jan 07, 2018</span>
+		</p>
+		
+		Setting Ubuntu
+		<h1 id="ubuntu用の設定資料">Ubuntu用の設定資料</h1>
+
+<h2 id="ubuntuのバージョンを確認するコマンド">Ubuntuのバージョンを確認するコマンド</h2>
+
+<blockquote>
+<p>$ cat /etc/lsb-release</p>
+</blockquote>
+
+<p></p>
+
+<h2 id="フォントを変更する">フォントを変更する</h2>
+
+<ul>
+<li>下記リポジトリをクローンする
+&gt; $ git clone <a href="https://github.com/edihbrandon/RictyDiminished.git">https://github.com/edihbrandon/RictyDiminished.git</a></li>
+<li>下記コマンドを実行し、「フォント」でRictyDiminishedを指定する
+&gt; $ sudo apt-get update
+&gt; $ sudo apt-get install unity-tweak-tool
+&gt; $ unity-tweak-tool</li>
+</ul>
+
+<h2 id="アップデートを確認する">アップデートを確認する</h2>
+
+<blockquote>
+<p>$ sudo aptitude update
+$ sudo aptitude upgrade</p>
+</blockquote>
+
+<h2 id="ファイアウォール設定">ファイアウォール設定</h2>
+
+<blockquote>
+<p>$ sudo apt-get install ufw</p>
+
+<h3 id="状態確認">状態確認</h3>
+
+<p>$ sudo ufw status</p>
+
+<h3 id="sshとhttpだけ許可">SSHとHTTPだけ許可</h3>
+
+<p>$ sudo ufw allow 22
+$ sudo ufw allow 80</p>
+
+<h3 id="全て初拒否にする場合">全て初拒否にする場合</h3>
+
+<p>$ sudo ufw default deny</p>
+
+<h3 id="有効にする場合">有効にする場合</h3>
+
+<p>$ sudo ufw enable</p>
+</blockquote>
+
+<h2 id="日付と時刻の設定">日付と時刻の設定</h2>
+
+<ol>
+<li>メニューバーの時計をクリック</li>
+<li>「Time &amp; Date settings」をクリック</li>
+<li>世界地図の「Tokyo」付近をクリック</li>
+<li>「Location」が「Tokyo」になっていることを確認</li>
+<li>ウィンドウを閉じる</li>
+</ol>
+
+<h2 id="言語設定">言語設定</h2>
+
+<ol>
+<li>「System settings」＞「Language Support」をクリック
+Note:歯車のアイコンが「System settings」です。</li>
+<li>初回のみ「Install」のダイアログが表示される
+&gt; - 「Install」をクリック</li>
+<li>「Install / Remove Languages」をクリック</li>
+<li>「Japanese」を選択して、「Apply」をクリック</li>
+<li>「日本語」をドラッグ＆ドロップして、最上位へ</li>
+<li>「Apply System-Wide」をクリック</li>
+<li>「Regional Formats」タブをクリック</li>
+<li>ドロップダウンリストから「日本語」を選択</li>
+<li>「Apply System-Wide」をクリック</li>
+<li>設定を反映させるために、ログアウト</li>
+<li>ログイン後に「フォルダ名」を変更するか聞かれるのでお好みで！
+&gt; - 「古い名前のままにする」</li>
+</ol>
+
+<h2 id="日本語入力環境の設定">日本語入力環境の設定</h2>
+
+<ol>
+<li>設定を開く</li>
+<li>「テキスト入力」を選択</li>
+<li>「+」をクリック</li>
+<li>入力ソースから「日本語 (Mozc)」を選択し、「追加」をクリック</li>
+<li>デフォルトの「英語 (US)」を削除</li>
+<li>追加した「日本語 (Mozc)」を選択して、上部へ</li>
+</ol>
+
+<h2 id="キーボード">キーボード</h2>
+
+<h3 id="ibus設定コマンド">ibus設定コマンド</h3>
+
+<blockquote>
+<p>$ ibus-setup</p>
+
+<h3 id="キーボードのレイアウト変更">キーボードのレイアウト変更</h3>
+
+<p>$ sudo dpkg-reconfigure keyboard-configuration
+- 上記コマンドを実行後
+- 「Apple Aluminum Keyboard(JIS)」&gt;「Japanese」＞「Japanese」＞「The Default for the keyborad layput」＞「No compose key」＞「No」or「Yes」</p>
+
+<p>$ sudo vi /usr/share/ibus/component/mozc.xml</p>
+
+<ul>
+<li>続けて上記コマンドを実行、「default」を「jp」に変更</li>
+</ul>
+
+<p>Note:
+もしかすると、言語設定は日本語のままじゃないとMacでは反応しない？</p>
+</blockquote>
+
+<p>【参考URL】
+- <a href="http://ubuntu.hatenablog.jp/entry/20140403/1396524520">http://ubuntu.hatenablog.jp/entry/20140403/1396524520</a>
+- <a href="http://ottan.xyz/ubuntu-16-04-ime-on-off-4913/">http://ottan.xyz/ubuntu-16-04-ime-on-off-4913/</a></p>
+
+<h1 id="git-をインストール">git をインストール</h1>
+
+<blockquote>
+<p>$ sudo aptitude install git</p>
+</blockquote>
+
+<h2 id="既に入っていて最新版にしたい場合">既に入っていて最新版にしたい場合</h2>
+
+<blockquote>
+<p>$ sudo add-apt-repository ppa:git-core/ppa</p>
+
+<p>$ sudo aptitude update</p>
+
+<p>$ sudo aptitude upgrade</p>
+</blockquote>
+
+<h2 id="git-初期設定">Git 初期設定</h2>
+
+<ul>
+<li><p>ユーザ名を登録
+&gt; $ git config &ndash;global user.name &ldquo;User Name&rdquo;</p></li>
+
+<li><p>メールアドレスを登録
+&gt; $ git config &ndash;global user.email &ldquo;hoge@hoge.com&rdquo;</p></li>
+
+<li><p>日本語ファイル名の文字化け対策
+&gt; $ git config &ndash;global core.quotepath false</p></li>
+</ul>
+
+<h1 id="java-をインストール">Java をインストール</h1>
+
+<blockquote>
+<p>$ sudo add-apt-repository ppa:webupd8team/java</p>
+
+<p>$ sudo aptitude update</p>
+
+<p>$ sudo aptitude install oracle-java8-installer</p>
+
+<p>確認の画面が表示されるので、OKまたはYesでインストール</p>
+</blockquote>
+
+<h2 id="インストールが完了したらバージョン確認">インストールが完了したらバージョン確認</h2>
+
+<blockquote>
+<p>$ java -version</p>
+
+<p>$ javac -version</p>
+</blockquote>
+
+<h2 id="java8-をデフォルトとして環境変数に設定するパッケージも含まれている">java8 をデフォルトとして環境変数に設定するパッケージも含まれている</h2>
+
+<blockquote>
+<p>$ sudo apt-get install oracle-java8-set-default</p>
+</blockquote>
+
+<h2 id="再起動すると-以下で確認できる">再起動すると、以下で確認できる</h2>
+
+<blockquote>
+<p>$ echo $JAVA_HOME</p>
+</blockquote>
+
+<h1 id="その他">その他</h1>
+
+<h2 id="amazon-をシステムから削除">Amazon をシステムから削除</h2>
+
+<blockquote>
+<p>$ sudo aptitude remove unity-webapps-common</p>
+</blockquote>
+
+<h2 id="ターミナルのショートカットキー">ターミナルのショートカットキー</h2>
+
+<ul>
+<li><p>コピー・ペースト
+&gt; - Ctrl+u：カーソルより左側を切り取り
+&gt; - Ctrl+k：カーソルより右側を切り取り
+&gt; - Ctrl+y：貼り付け</p></li>
+
+<li><p>端末操作
+&gt; - Ctrl+Shift+n：新たな端末を作成</p></li>
+
+<li><p>タブ操作
+&gt; - Ctrl+Shift+t：タブを追加
+&gt; - Ctrl+Shift+w：現在のタブを閉じる
+&gt; - Ctrl+Page_down,Ctrl+Page_up：タブ切り替え(Macでは「fn」も追加)</p></li>
+</ul>
+	</div>
+</body>
+</html>

@@ -6,18 +6,97 @@
     <description>Recent content on Creating imagination by Edward Jobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Nov 2017 20:11:36 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2018 21:19:57 +0900</lastBuildDate>
     
 	<atom:link href="http://edward-jobs.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test2</title>
-      <link>http://edward-jobs.com/favorite/test2/</link>
+      <title>Git_username_email_exchange</title>
+      <link>http://edward-jobs.com/posts/git_username_email_exchange/</link>
+      <pubDate>Sun, 07 Jan 2018 21:19:57 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/posts/git_username_email_exchange/</guid>
+      <description>&lt;h1 id=&#34;メールアドレスとアカウントを全て変更するためのもの&#34;&gt;メールアドレスとアカウントを全て変更するためのもの&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Version Up For Git</title>
+      <link>http://edward-jobs.com/posts/version-up-for-git/</link>
+      <pubDate>Sun, 07 Jan 2018 21:15:22 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/posts/version-up-for-git/</guid>
+      <description>&lt;h1 id=&#34;git-バージョンアップ方法-ver-centos&#34;&gt;Git バージョンアップ方法 Ver.CentOS&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting Ubuntu</title>
+      <link>http://edward-jobs.com/posts/setting-ubuntu/</link>
+      <pubDate>Sun, 07 Jan 2018 21:11:02 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/posts/setting-ubuntu/</guid>
+      <description>&lt;h1 id=&#34;ubuntu用の設定資料&#34;&gt;Ubuntu用の設定資料&lt;/h1&gt;
+
+&lt;h2 id=&#34;ubuntuのバージョンを確認するコマンド&#34;&gt;Ubuntuのバージョンを確認するコマンド&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;$ cat /etc/lsb-release&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Sass</title>
+      <link>http://edward-jobs.com/favorite/about-sass/</link>
+      <pubDate>Sun, 07 Jan 2018 20:33:30 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/favorite/about-sass/</guid>
+      <description>&lt;h2 id=&#34;環境設定&#34;&gt;環境設定&lt;/h2&gt;
+
+&lt;p&gt;ruby -v
+sudo gem update &amp;ndash;system&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install Hugo</title>
+      <link>http://edward-jobs.com/posts/install-hugo/</link>
+      <pubDate>Sun, 07 Jan 2018 19:56:07 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/posts/install-hugo/</guid>
+      <description>&lt;h1 id=&#34;ubuntuでhugoをインストールする時によく使う手順だけ-書いてみました&#34;&gt;UbuntuでHugoをインストールする時によく使う手順だけ、書いてみました。&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Good Memories</title>
+      <link>http://edward-jobs.com/posts/good-memories/</link>
+      <pubDate>Sun, 07 Jan 2018 19:39:06 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/posts/good-memories/</guid>
+      <description>&lt;h1 id=&#34;無いなら-作れば良いんじゃないか&#34;&gt;「無いなら、作れば良いんじゃないか？」&lt;/h1&gt;
+
+&lt;p&gt;そんな風に、思って子供の頃は新聞紙にガムテープ何かを使って、&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web Font</title>
+      <link>http://edward-jobs.com/favorite/web-font/</link>
       <pubDate>Sun, 19 Nov 2017 20:11:36 +0900</pubDate>
       
-      <guid>http://edward-jobs.com/favorite/test2/</guid>
-      <description>test2</description>
+      <guid>http://edward-jobs.com/favorite/web-font/</guid>
+      <description>&lt;p&gt;Webフォントって、英語だけしかないのかと思ったら、日本語もしっかりと提供されているんですね！！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,12 +109,14 @@
     </item>
     
     <item>
-      <title>Favorite</title>
-      <link>http://edward-jobs.com/favorite/favorite/</link>
+      <title>Screenshot Of Mac</title>
+      <link>http://edward-jobs.com/favorite/screenshot-of-mac/</link>
       <pubDate>Sun, 19 Nov 2017 19:24:44 +0900</pubDate>
       
-      <guid>http://edward-jobs.com/favorite/favorite/</guid>
-      <description> test favorite </description>
+      <guid>http://edward-jobs.com/favorite/screenshot-of-mac/</guid>
+      <description>&lt;h1 id=&#34;macでスクリーンショットを撮る方法をいつも忘れるのでメモ&#34;&gt;Macでスクリーンショットを撮る方法をいつも忘れるのでメモ！&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

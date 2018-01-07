@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://edward-jobs.com/favorite/test2/</loc>
+    <loc>http://edward-jobs.com/posts/git_username_email_exchange/</loc>
+    <lastmod>2018-01-07T21:19:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/posts/version-up-for-git/</loc>
+    <lastmod>2018-01-07T21:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/posts/setting-ubuntu/</loc>
+    <lastmod>2018-01-07T21:11:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/favorite/about-sass/</loc>
+    <lastmod>2018-01-07T20:33:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/posts/install-hugo/</loc>
+    <lastmod>2018-01-07T19:56:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/posts/good-memories/</loc>
+    <lastmod>2018-01-07T19:39:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/favorite/web-font/</loc>
     <lastmod>2017-11-19T20:11:36+09:00</lastmod>
   </url>
   
@@ -13,7 +43,7 @@
   </url>
   
   <url>
-    <loc>http://edward-jobs.com/favorite/favorite/</loc>
+    <loc>http://edward-jobs.com/favorite/screenshot-of-mac/</loc>
     <lastmod>2017-11-19T19:24:44+09:00</lastmod>
   </url>
   
@@ -39,13 +69,13 @@
   
   <url>
     <loc>http://edward-jobs.com/</loc>
-    <lastmod>2017-11-19T20:11:36+09:00</lastmod>
+    <lastmod>2018-01-07T21:19:57+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://edward-jobs.com/favorite/</loc>
-    <lastmod>2017-11-19T20:11:36+09:00</lastmod>
+    <lastmod>2018-01-07T20:33:30+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,7 +87,7 @@
   
   <url>
     <loc>http://edward-jobs.com/posts/</loc>
-    <lastmod>2017-10-08T21:03:20+09:00</lastmod>
+    <lastmod>2018-01-07T21:19:57+09:00</lastmod>
     <priority>0</priority>
   </url>
   

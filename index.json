@@ -1,11 +1,53 @@
 
 [
 {
-	"uri": "http://edward-jobs.com/favorite/test2/",
-	"title": "Test2",
+	"uri": "http://edward-jobs.com/posts/git_username_email_exchange/",
+	"title": "Git_username_email_exchange",
 	"tags": [],
 	"description": "",
-	"content": "test2\n"
+	"content": "メールアドレスとアカウントを全て変更するためのもの \n $ git filter-branch -f \u0026ndash;env-filter \u0026ldquo;GIT_AUTHOR_NAME=\u0026lsquo;tkoramu\u0026rsquo;;\n GIT_AUTHOR_EMAIL=\u0026lsquo;tkoramu@users.noreply.github.com\u0026rsquo;; GIT_COMMITTER_NAME=\u0026lsquo;tkoramu\u0026rsquo;; GIT_COMMITTER_EMAIL=\u0026lsquo;tkoramu@users.noreply.github.com\u0026rsquo;;\u0026rdquo; HEAD\n下記コマンドを実行すると、「rejectedエラー」が解消される  $ git fetch \u0026amp;\u0026amp; git merge origin/master\n 下記コマンドを実行すると、「rejectedエラー,mergeエラー」が解消される  $ git fetch \u0026amp;\u0026amp; git merge \u0026ndash;allow-unrelated-histories origin/master\n"
+},
+{
+	"uri": "http://edward-jobs.com/posts/version-up-for-git/",
+	"title": "Version Up For Git",
+	"tags": [],
+	"description": "",
+	"content": "Git バージョンアップ方法 Ver.CentOS \n事前準備  wget gcc コマンドがインストールされていない場合 yum -y install wget gcc  古いGitがあれば下記を実行 yum remove git  下記をインストール sudo yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-ExtUtils-MakeMaker  ソースファイルをダウンロード wget https://www.kernel.org/pub/software/scm/git/git-2.9.3.tar.gz  ダウンロードしたファイルを解凍 tar -zxf git-2.2.0.tar.gz  Gitをインストール cd git-2.9.3 make prefix=/usr/local all make prefix=/usr/local install  Git バージョン確認 git --version  No such file or directory または そのようなファイルやディレクトリはありません と表示された場合 hash -r  【参考URL】 - http://qiita.com/sirone/items/2e233ab9697a030f1335\n"
+},
+{
+	"uri": "http://edward-jobs.com/posts/setting-ubuntu/",
+	"title": "Setting Ubuntu",
+	"tags": [],
+	"description": "",
+	"content": "Ubuntu用の設定資料 Ubuntuのバージョンを確認するコマンド  $ cat /etc/lsb-release\n \nフォントを変更する  下記リポジトリをクローンする \u0026gt; $ git clone https://github.com/edihbrandon/RictyDiminished.git 下記コマンドを実行し、「フォント」でRictyDiminishedを指定する \u0026gt; $ sudo apt-get update \u0026gt; $ sudo apt-get install unity-tweak-tool \u0026gt; $ unity-tweak-tool  アップデートを確認する  $ sudo aptitude update $ sudo aptitude upgrade\n ファイアウォール設定  $ sudo apt-get install ufw\n状態確認 $ sudo ufw status\nSSHとHTTPだけ許可 $ sudo ufw allow 22 $ sudo ufw allow 80\n全て初拒否にする場合 $ sudo ufw default deny\n有効にする場合 $ sudo ufw enable\n 日付と時刻の設定  メニューバーの時計をクリック 「Time \u0026amp; Date settings」をクリック 世界地図の「Tokyo」付近をクリック 「Location」が「Tokyo」になっていることを確認 ウィンドウを閉じる  言語設定  「System settings」＞「Language Support」をクリック Note:歯車のアイコンが「System settings」です。 初回のみ「Install」のダイアログが表示される \u0026gt; - 「Install」をクリック 「Install / Remove Languages」をクリック 「Japanese」を選択して、「Apply」をクリック 「日本語」をドラッグ＆ドロップして、最上位へ 「Apply System-Wide」をクリック 「Regional Formats」タブをクリック ドロップダウンリストから「日本語」を選択 「Apply System-Wide」をクリック 設定を反映させるために、ログアウト ログイン後に「フォルダ名」を変更するか聞かれるのでお好みで！ \u0026gt; - 「古い名前のままにする」  日本語入力環境の設定  設定を開く 「テキスト入力」を選択 「+」をクリック 入力ソースから「日本語 (Mozc)」を選択し、「追加」をクリック デフォルトの「英語 (US)」を削除 追加した「日本語 (Mozc)」を選択して、上部へ  キーボード ibus設定コマンド  $ ibus-setup\nキーボードのレイアウト変更 $ sudo dpkg-reconfigure keyboard-configuration - 上記コマンドを実行後 - 「Apple Aluminum Keyboard(JIS)」\u0026gt;「Japanese」＞「Japanese」＞「The Default for the keyborad layput」＞「No compose key」＞「No」or「Yes」\n$ sudo vi /usr/share/ibus/component/mozc.xml\n 続けて上記コマンドを実行、「default」を「jp」に変更  Note: もしかすると、言語設定は日本語のままじゃないとMacでは反応しない？\n 【参考URL】 - http://ubuntu.hatenablog.jp/entry/20140403/1396524520 - http://ottan.xyz/ubuntu-16-04-ime-on-off-4913/\ngit をインストール  $ sudo aptitude install git\n 既に入っていて最新版にしたい場合  $ sudo add-apt-repository ppa:git-core/ppa\n$ sudo aptitude update\n$ sudo aptitude upgrade\n Git 初期設定  ユーザ名を登録 \u0026gt; $ git config \u0026ndash;global user.name \u0026ldquo;User Name\u0026rdquo;\n メールアドレスを登録 \u0026gt; $ git config \u0026ndash;global user.email \u0026ldquo;hoge@hoge.com\u0026rdquo;\n 日本語ファイル名の文字化け対策 \u0026gt; $ git config \u0026ndash;global core.quotepath false\n  Java をインストール  $ sudo add-apt-repository ppa:webupd8team/java\n$ sudo aptitude update\n$ sudo aptitude install oracle-java8-installer\n確認の画面が表示されるので、OKまたはYesでインストール\n インストールが完了したらバージョン確認  $ java -version\n$ javac -version\n java8 をデフォルトとして環境変数に設定するパッケージも含まれている  $ sudo apt-get install oracle-java8-set-default\n 再起動すると、以下で確認できる  $ echo $JAVA_HOME\n その他 Amazon をシステムから削除  $ sudo aptitude remove unity-webapps-common\n ターミナルのショートカットキー  コピー・ペースト \u0026gt; - Ctrl+u：カーソルより左側を切り取り \u0026gt; - Ctrl+k：カーソルより右側を切り取り \u0026gt; - Ctrl+y：貼り付け\n 端末操作 \u0026gt; - Ctrl+Shift+n：新たな端末を作成\n タブ操作 \u0026gt; - Ctrl+Shift+t：タブを追加 \u0026gt; - Ctrl+Shift+w：現在のタブを閉じる \u0026gt; - Ctrl+Page_down,Ctrl+Page_up：タブ切り替え(Macでは「fn」も追加)\n "
+},
+{
+	"uri": "http://edward-jobs.com/favorite/about-sass/",
+	"title": "About Sass",
+	"tags": [],
+	"description": "",
+	"content": "環境設定 ruby -v sudo gem update \u0026ndash;system\n\n// インストール sudo gem install sass\n// アップデート gem update sass\n// アンインストール gem uninstall sass\n// バージョンを指定してインストール gem install sass -v 特定のバージョン\nコンパイル sass \u0026ndash;style expended \u0026ndash;watch sass:css\n入れ子(ネスト)構造 #main { width: 90%; P { font-size: 16px; a { text-decoration: none; \u0026amp;:hover { font-weight: bold; } } } }\nコメント /* commnet */\n// comment こちらはCSSには反映されない\n変数 $imgDir: \u0026ldquo;../img/\u0026rdquo;; $baseFontSize: 14px; $brandColor: rgba(255,0,0,0.9);\n#main { width: 90%; backgoround: url($imgDir + \u0026ldquo;bg.png\u0026rdquo;); // url(\u0026ldquo;#{$imgDir}bg.png\u0026rdquo;); P { color: $brandColor; // lighten, darken // lighten($brandColor, 30%); font-size: $baseFontSize; .sub { font-size: $baseFontSize -2px; // #{12 + 12}px; } } }\n条件分岐 $debugMode: true; $x: 10;\n#main { // == != \u0026lt; \u0026gt; \u0026lt;= \u0026gt;= @if $debugMode == true { color: red; } @else { color: green; } p { @if $x \u0026gt; 20 {color: yellow;} } }\nループ @for $i from 10 through 14 { .fs{$i} { font-size: #{$i}px; } }\n$i: 10; @while $i \u0026lt;= 14 { .fs{$i} { font-size: #{$i}px; } $i: $i + 1; }\nリスト $animals: cat, dog, tiger;\n@each $animal in $animals { // @each $animal in cat, dog, tiger { .#{$animal}-icon { background: url(\u0026ldquo;#{$animal}.png\u0026rdquo;) }; }\n関数の作り方 $totalWidth: 940px; $columnCount: 5;\n@function getColumnWidth($width, $count) { // $columnWidthを計算 $padding: 10px; $columnWidth: floor(($width - ($padding * ($count - 1))) / $count); @debug $columnWidth; // コンパイル時点で表示してくれる @return $columnWidth; }\n.grid { float: left; width: $getColumnWidth($totalWidth, $columnCount); }\nファイルを分離して管理する @import \u0026ldquo;settings\u0026rdquo;; // _settings.scss @import \u0026ldquo;functions\u0026rdquo;; // _functions.scss\n.grid { float: left; width: $getColumnWidth($totalWidth, $columnCount); }\nmixin @mixin round($radius:4px) { border-radius: $radius; }\n.label { fount-size: 12px; @include round(10px); }\nextend(継承) .msg { font-size: 12px; font-weight: bold; padding: 2px 4px; color: white; }\n.errorMsg { @extend .msg; background: red; }\n.warningMsg { @extend .msg; background: orange; }\n"
+},
+{
+	"uri": "http://edward-jobs.com/posts/install-hugo/",
+	"title": "Install Hugo",
+	"tags": [],
+	"description": "",
+	"content": "UbuntuでHugoをインストールする時によく使う手順だけ、書いてみました。 \nWindowsやMacを使っている人は公式サイトの方法か、他の人の方法を参考にしてみると良いかかもしれません。\nというのも、私はメインのOSで作業するよりも、別の環境で作業する方が好きだからです。\n version install   Ubuntu(64bit)\nwget https://github.com/gohugoio/hugo/releases/download/v0.29/hugo_0.29_Linux-64bit.deb\nMate(raspberry pi)\nwget https://github.com/gohugoio/hugo/releases/download/v0.32.2/hugo_0.32.2_Linux-ARM.deb\nsudo dpkg -i hugo_0.24.1_Linux-64bit.deb\n  server   hugo-theme-docdockをテーマに指定した場合\nhugo server -t hugo-theme-docdock -D -w\nVagrant(IP指定用)\nhugo server \u0026ndash;bind=192.168.xx.xx -t hugo-theme-docdock -D -w\n"
+},
+{
+	"uri": "http://edward-jobs.com/posts/good-memories/",
+	"title": "Good Memories",
+	"tags": [],
+	"description": "",
+	"content": "「無いなら、作れば良いんじゃないか？」 そんな風に、思って子供の頃は新聞紙にガムテープ何かを使って、\n\n作っては見栄をはって、見せてたな(´ω｀)\n本物とは到底見た目が違うんだけど、本物ぽく言ってました。 そう考えると、嘘つき少年だっと思います（笑）\nでも、無いなら作ろうと思うようになったのはこの頃です。\n洗濯バサミやドミノ、積み木はレゴブロックの代わりにして遊んで、トミカを人形代わりに役を付けて、演じたりもしましたね。\n今思い返せば、笑ってしまうことをやってたけど、それがすごく楽しかったってことだけは覚えてますね！\n 「ポケモンカードが買えなかった。だから僕らは手作りしたんだ」10年前の思い出がよみがえる。 "
+},
+{
+	"uri": "http://edward-jobs.com/favorite/web-font/",
+	"title": "Web Font",
+	"tags": [],
+	"description": "",
+	"content": "Webフォントって、英語だけしかないのかと思ったら、日本語もしっかりと提供されているんですね！！\n\nとっても、感謝です(≧∇≦)/\n Google で提供されている日本語用Webフォント   https://googlefonts.github.io/japanese/#notosansjapanese\n"
 },
 {
 	"uri": "http://edward-jobs.com/notice/test/",
@@ -15,11 +57,11 @@
 	"content": "testtest,notice\n"
 },
 {
-	"uri": "http://edward-jobs.com/favorite/favorite/",
-	"title": "Favorite",
+	"uri": "http://edward-jobs.com/favorite/screenshot-of-mac/",
+	"title": "Screenshot Of Mac",
 	"tags": [],
 	"description": "",
-	"content": " test favorite "
+	"content": "Macでスクリーンショットを撮る方法をいつも忘れるのでメモ！ \n 画面全体のスクリーンショットを撮る方法 「shift + command (⌘) + 3」キー デスクトップにスクリーンショットが .png ファイルで出力\n 画面の選択した部分のスクリーンショットを撮る方法\n 「shift + command + 4」キー\n 撮影範囲の始点となる位置に十字ポインタを移動\n そのままドラッグして範囲を選択 \u0026gt; ※「shift」キー、「option」キー、またはスペースバーを押しながらドラッグすると、範囲の選択方法が変わる。\n   目的の範囲が選択されたら、マウスまたはトラックパッドのボタンを放す \u0026gt; ※取り消すには、ボタンを放す前に「escape (esc)」キーを押下\n 取り消すには、ボタンを放す前に「escape (esc)」キーを押します。\n  【参考URL】 - Apple サポートコミュニティ\n"
 },
 {
 	"uri": "http://edward-jobs.com/task/test/",
