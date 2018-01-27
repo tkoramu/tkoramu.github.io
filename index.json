@@ -1,6 +1,20 @@
 
 [
 {
+	"uri": "http://edward-jobs.com/task/create_singlepage/",
+	"title": "Create_singlePage",
+	"tags": [],
+	"description": "",
+	"content": " Single Pageを作り込む "
+},
+{
+	"uri": "http://edward-jobs.com/task/view_strings/",
+	"title": "View_strings",
+	"tags": [],
+	"description": "",
+	"content": " JavaScriptを使用して文字数を最大20文字にする "
+},
+{
 	"uri": "http://edward-jobs.com/posts/git_username_email_exchange/",
 	"title": "Git_username_email_exchange",
 	"tags": [],

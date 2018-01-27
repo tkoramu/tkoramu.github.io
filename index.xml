@@ -6,10 +6,28 @@
     <description>Recent content on Creating imagination by Edward Jobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jan 2018 21:19:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jan 2018 19:46:35 +0900</lastBuildDate>
     
 	<atom:link href="http://edward-jobs.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create_singlePage</title>
+      <link>http://edward-jobs.com/task/create_singlepage/</link>
+      <pubDate>Sat, 27 Jan 2018 19:46:35 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/task/create_singlepage/</guid>
+      <description>Single Pageを作り込む</description>
+    </item>
+    
+    <item>
+      <title>View_strings</title>
+      <link>http://edward-jobs.com/task/view_strings/</link>
+      <pubDate>Sat, 27 Jan 2018 19:37:24 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/task/view_strings/</guid>
+      <description>JavaScriptを使用して文字数を最大20文字にする</description>
+    </item>
     
     <item>
       <title>Git_username_email_exchange</title>

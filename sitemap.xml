@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edward-jobs.com/task/create_singlepage/</loc>
+    <lastmod>2018-01-27T19:46:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/task/view_strings/</loc>
+    <lastmod>2018-01-27T19:37:24+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edward-jobs.com/posts/git_username_email_exchange/</loc>
     <lastmod>2018-01-07T21:19:57+09:00</lastmod>
   </url>
@@ -69,7 +79,7 @@
   
   <url>
     <loc>http://edward-jobs.com/</loc>
-    <lastmod>2018-01-07T21:19:57+09:00</lastmod>
+    <lastmod>2018-01-27T19:46:35+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -98,7 +108,7 @@
   
   <url>
     <loc>http://edward-jobs.com/task/</loc>
-    <lastmod>2017-11-19T19:24:44+09:00</lastmod>
+    <lastmod>2018-01-27T19:46:35+09:00</lastmod>
     <priority>0</priority>
   </url>
   
