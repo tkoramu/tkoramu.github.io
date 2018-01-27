@@ -64,11 +64,11 @@
 	"content": "Macでスクリーンショットを撮る方法をいつも忘れるのでメモ！ \n 画面全体のスクリーンショットを撮る方法 「shift + command (⌘) + 3」キー デスクトップにスクリーンショットが .png ファイルで出力\n 画面の選択した部分のスクリーンショットを撮る方法\n 「shift + command + 4」キー\n 撮影範囲の始点となる位置に十字ポインタを移動\n そのままドラッグして範囲を選択 \u0026gt; ※「shift」キー、「option」キー、またはスペースバーを押しながらドラッグすると、範囲の選択方法が変わる。\n   目的の範囲が選択されたら、マウスまたはトラックパッドのボタンを放す \u0026gt; ※取り消すには、ボタンを放す前に「escape (esc)」キーを押下\n 取り消すには、ボタンを放す前に「escape (esc)」キーを押します。\n  【参考URL】 - Apple サポートコミュニティ\n"
 },
 {
-	"uri": "http://edward-jobs.com/task/test/",
+	"uri": "http://edward-jobs.com/task/add_notice/",
 	"title": "Task test",
 	"tags": [],
 	"description": "",
-	"content": " test task "
+	"content": " noticeに記事を追加する "
 },
 {
 	"uri": "http://edward-jobs.com/notice/notics/",
