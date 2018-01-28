@@ -65,6 +65,14 @@ section p {
   right: 2%;
 }
 
+.section-main {
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;
+  display: table-cell;
+  vertical-align: top;
+}
+
 .icon-image {
   width: 13%;
   display: table-cell;
@@ -76,19 +84,6 @@ section p {
   object-fit: cover;
 }
 
-.section-main {
-  padding-left: 2%;
-  padding-right: 2%;
-  position: relative;
-  display: table-cell;
-  vertical-align: top;
-}
-
-@media (min-width: 960px) {
-  .icon-image {
-    width: 20%;
-  }
-}
 .single-pagas {
   margin: 2% auto;
   width: 80%;
@@ -105,15 +100,17 @@ section p {
   .single-pagas p {
     margin: 0;
   }
-  .single-pagas .icon-image {
-    width: 15%;
-  }
 }
 .footer .copylight {
   margin: 0;
   text-align: center;
 }
 
+@media (min-width: 960px) {
+  .icon-image {
+    width: 20%;
+  }
+}
 .container {
   display: grid;
   grid-template: "header" 15% "home"   1fr "footer" 5% /100%;
@@ -176,10 +173,6 @@ section p {
 }
 .menu li a:hover {
   background-color: #2c313d;
-}
-
-.task {
-  margin-top: 5%;
 }
 
 @media (min-width: 960px) {

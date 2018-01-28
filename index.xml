@@ -6,10 +6,28 @@
     <description>Recent content on Creating imagination by Edward Jobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 27 Jan 2018 19:46:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2018 17:31:24 +0900</lastBuildDate>
     
 	<atom:link href="http://edward-jobs.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Icon Image</title>
+      <link>http://edward-jobs.com/task/icon-image/</link>
+      <pubDate>Sun, 28 Jan 2018 17:31:24 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/task/icon-image/</guid>
+      <description>アイコン画像のサイズを調整</description>
+    </item>
+    
+    <item>
+      <title>Favorite_words</title>
+      <link>http://edward-jobs.com/favorite/favorite_words/</link>
+      <pubDate>Sun, 28 Jan 2018 16:50:43 +0900</pubDate>
+      
+      <guid>http://edward-jobs.com/favorite/favorite_words/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Create_singlePage</title>

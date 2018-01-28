@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://edward-jobs.com/task/icon-image/</loc>
+    <lastmod>2018-01-28T17:31:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://edward-jobs.com/favorite/favorite_words/</loc>
+    <lastmod>2018-01-28T16:50:43+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://edward-jobs.com/task/create_singlepage/</loc>
     <lastmod>2018-01-27T19:46:35+09:00</lastmod>
   </url>
@@ -79,13 +89,13 @@
   
   <url>
     <loc>http://edward-jobs.com/</loc>
-    <lastmod>2018-01-27T19:46:35+09:00</lastmod>
+    <lastmod>2018-01-28T17:31:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://edward-jobs.com/favorite/</loc>
-    <lastmod>2018-01-07T20:33:30+09:00</lastmod>
+    <lastmod>2018-01-28T16:50:43+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,7 +118,7 @@
   
   <url>
     <loc>http://edward-jobs.com/task/</loc>
-    <lastmod>2018-01-27T19:46:35+09:00</lastmod>
+    <lastmod>2018-01-28T17:31:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
